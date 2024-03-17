@@ -1,17 +1,8 @@
-# Eriixvim - An uninspiredly named Nixvim Flake
+# A named Nixvim Flake
 
-[![Flake Info](https://github.com/erictossell/eriixvim/actions/workflows/flake-info.yml/badge.svg?branch=main)](https://github.com/erictossell/eriixvim/actions/workflows/flake-info.yml)
-[![Flake Check](https://github.com/erictossell/eriixvim/actions/workflows/flake-check.yml/badge.svg?branch=main)](https://github.com/erictossell/eriixvim/actions/workflows/flake-check.yml)
-[![Flake Update](https://github.com/erictossell/eriixvim/actions/workflows/flake-update.yml/badge.svg?branch=main)](https://github.com/erictossell/eriixvim/actions/workflows/flake-update.yml)
+Documentation available in [README.md](https://github.com/nix-community/nixvim). 
 
-
-I thought I might actually write some code with this configuration but so far all I've written is `nix`. That counts I guess right?
-
-I basically just followed the documentation available in the [README.md](https://github.com/nix-community/nixvim). 
-
-After that I went to this [location](https://nix-community.github.io/nixvim/) and grabbed the plugins that looked familiar.
-
-I gave it some test runs and the result is what you see. Most of my vim experience is not in an environment that would allow for ellaborate dotfiles to begin with so I don't mind keeping it close to the defaults. 
+Fork off `github:erictossell/eriixvim`.
 
 ## Try it for yourself
 
@@ -25,7 +16,7 @@ nix run github:erictossell/eriixvim
 This flake supports templating:
 
 ```nix
-nix flake new -t github:erictossell/eriixvim <your-new-flake-path>
+nix flake new -t github:talbergs/nixvim <your-new-flake-path>
 ```
 
 ## Configuring
